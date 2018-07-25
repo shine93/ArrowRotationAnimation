@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  XXImageViewMoveWithPath
 //
-//  Created by 人人 on 2018/6/25.
-//  Copyright © 2018年 人人. All rights reserved.
+//  Created by shine on 2018/6/25.
+//  Copyright © 2018年 shine. All rights reserved.
 //
 
 import UIKit
@@ -46,8 +46,6 @@ class ViewController: UIViewController {
         circleAnimation.repeatCount = MAXFLOAT
         
         semiCircleLayer.add(circleAnimation, forKey: nil)
-        
-        
     }
 
     func imageAnimationWithPath() -> Void {
@@ -69,9 +67,6 @@ class ViewController: UIViewController {
         keyAnimation.path = semiCirclePath.cgPath
         
         imageView.layer.add(keyAnimation, forKey: nil)
-        
     }
-
-
 }
 
