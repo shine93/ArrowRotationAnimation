@@ -14,6 +14,7 @@
 		776CAA6120E0DCF8003912C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776CAA5F20E0DCF8003912C4 /* LaunchScreen.storyboard */; };
 		776CAA6C20E0DCF8003912C4 /* XXImageViewMoveWithPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CAA6B20E0DCF8003912C4 /* XXImageViewMoveWithPathTests.swift */; };
 		776CAA7720E0DCF9003912C4 /* XXImageViewMoveWithPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CAA7620E0DCF9003912C4 /* XXImageViewMoveWithPathUITests.swift */; };
+		7781866321085B28008A1270 /* imageViewMoveWithPath.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7781866221085B28008A1270 /* imageViewMoveWithPath.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		776CAA7220E0DCF9003912C4 /* XXImageViewMoveWithPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXImageViewMoveWithPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		776CAA7620E0DCF9003912C4 /* XXImageViewMoveWithPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXImageViewMoveWithPathUITests.swift; sourceTree = "<group>"; };
 		776CAA7820E0DCF9003912C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7781866221085B28008A1270 /* imageViewMoveWithPath.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageViewMoveWithPath.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		776CAA5520E0DCF7003912C4 /* XXImageViewMoveWithPath */ = {
 			isa = PBXGroup;
 			children = (
+				7781866021085B02008A1270 /* New Group */,
 				776CAA5620E0DCF7003912C4 /* AppDelegate.swift */,
 				776CAA5820E0DCF7003912C4 /* ViewController.swift */,
 				776CAA5A20E0DCF7003912C4 /* Main.storyboard */,
@@ -123,6 +126,22 @@
 				776CAA7820E0DCF9003912C4 /* Info.plist */,
 			);
 			path = XXImageViewMoveWithPathUITests;
+			sourceTree = "<group>";
+		};
+		7781866021085B02008A1270 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7781866121085B0A008A1270 /* Images */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7781866121085B0A008A1270 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7781866221085B28008A1270 /* imageViewMoveWithPath.gif */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +251,7 @@
 				776CAA6120E0DCF8003912C4 /* LaunchScreen.storyboard in Resources */,
 				776CAA5E20E0DCF8003912C4 /* Assets.xcassets in Resources */,
 				776CAA5C20E0DCF7003912C4 /* Main.storyboard in Resources */,
+				7781866321085B28008A1270 /* imageViewMoveWithPath.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
