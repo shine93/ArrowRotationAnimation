@@ -24,7 +24,13 @@ keyAnimation.rotationMode = "auto"
 ![XXCycleProcessAnimation](https://github.com/shine93/XXCycleProcessAnimation/blob/master/XXCycleProcessAnimation/XXCycleProcessAnimation.gif)
 
 关键代码：
+
 根据画弧的进度，计算箭头的旋转角度
+```
+_displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(progress)];
+[_displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
+```
+
 ```
 - (void)progress{
     _progress += 0.3/60;
